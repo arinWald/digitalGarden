@@ -5,5 +5,19 @@
 body {
   background-color: rgb(40, 40, 40);
   color: white;
-  font-family: 'Courier New', Courier, monospace;
+  background-image: url(assets/comp016.gif);
+}
+
+#prova1 {
+  background-image:
+    linear-gradient(rgba(0, 0, 255, .9),
+                   rgba(255, 255, 0, 0.9));
+  color: white;
+  font-style: italic;
+  border:  aqua 7px groove;
+  width: 500px;
+  height: 100px;
+  margin: auto;
+  padding: 15px;
+
 }
