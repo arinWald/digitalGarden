@@ -12,9 +12,21 @@ body {
   background-image:
     linear-gradient(rgba(0, 0, 255, .9),
                    rgba(255, 255, 0, 0.9));
-  color: white;
+  color: red;
   font-style: italic;
   border:  aqua 7px groove;
+  width: 500px;
+  height: 100px;
+  margin: auto;
+  padding: 15px;
+
+}
+
+#prova2 {
+  background-image: 
+    repeating-radial-gradient(rgba(2, 10, 203, 100), rgba(2, 210, 3, 100));
+  color: turquoise;
+  font-style: oblique;
   width: 500px;
   height: 100px;
   margin: auto;
