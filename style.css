@@ -6,11 +6,7 @@ body {
   background-color: rgb(8, 68, 55);
   color: white;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-a{
-  color: red;
-  text-decoration: dotted;
+  padding: 10% 20%;
 }
 
 #prova1 {
@@ -27,6 +23,16 @@ a{
 
 }
 
+img.margin{
+  margin: 5%;
+}
+
+.sidebar
+{
+  float: right;
+  margin-left: 15px;
+}
+
 #prova2 {
   background-image: 
     repeating-radial-gradient(rgba(2, 10, 203, 100), rgba(2, 210, 3, 100));
@@ -41,7 +47,9 @@ a{
 #prova3 {
   background-image: 
     linear-gradient(rgb(0 0 255 / 0.5), rgb(255 255 0 / 0.5)),
-    url(assets/comp016.gif);
+    url('assets/comp016.gif');
+    background-position: center right;
+    background-repeat: no-repeat;
   color: turquoise;
   border-style:double;
   border-radius: 20px;
@@ -53,4 +61,33 @@ a{
   height: 100px;
   margin: auto;
   padding: 15px;
+}
+
+li a{
+  color: green;
+}
+
+li.red{
+  color: red;
+  text-align: center;
+  font-variant:small-caps;
+  width: 3px;
+}
+
+li:hover{
+  color:black;
+  text-decoration:underline;
+  word-spacing: 50px;
+}
+
+.black_bold{
+  color: black;
+  font-weight: 1000;
+  text-transform: capitalize;
+  letter-spacing: 10px;
+}
+
+ul.kirby
+{
+  list-style-image:url('assets/kirby_dot.png');
 }
