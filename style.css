@@ -6,6 +6,8 @@ body {
   background-color: rgb(40, 40, 40);
   color: white;
   background-image: url(assets/comp016.gif);
+  font-style: italic;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 #prova1 {
