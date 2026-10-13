@@ -3,11 +3,14 @@
    "how to change link color." */
 
 body {
-  background-color: rgb(40, 40, 40);
+  background-color: rgb(8, 68, 55);
   color: white;
-  background-image: url(assets/comp016.gif);
-  font-style: italic;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a{
+  color: red;
+  text-decoration: dotted;
 }
 
 #prova1 {
@@ -33,5 +36,21 @@ body {
   height: 100px;
   margin: auto;
   padding: 15px;
+}
 
+#prova3 {
+  background-image: 
+    linear-gradient(rgb(0 0 255 / 0.5), rgb(255 255 0 / 0.5)),
+    url(assets/comp016.gif);
+  color: turquoise;
+  border-style:double;
+  border-radius: 20px;
+  border-width:10px;
+  border-color: red;
+  border-bottom-color: white;
+  border-top-color: white;
+  width: 500px;
+  height: 100px;
+  margin: auto;
+  padding: 15px;
 }
