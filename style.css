@@ -7,6 +7,7 @@ body {
   color: white;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   padding: 10% 20%;
+  text-align: justify;
 }
 
 #prova1 {
@@ -44,7 +45,7 @@ img.margin{
   padding: 15px;
 }
 
-#prova3 {
+#blocxuli {
   background-image: 
     linear-gradient(rgb(0 0 255 / 0.5), rgb(255 255 0 / 0.5)),
     url('assets/comp016.gif');
@@ -61,6 +62,9 @@ img.margin{
   height: 100px;
   margin: auto;
   padding: 15px;
+  /* overflow auto fa que si es mes gran el text que el quadrat sigui scrollable */
+  overflow: auto;
+  text-align:justify;
 }
 
 li a{
@@ -90,4 +94,31 @@ li:hover{
 ul.kirby
 {
   list-style-image:url('assets/kirby_dot.png');
+}
+
+#caixanormal
+{
+  border-style:solid;
+  border-color: rgb(0, 0, 0);
+  border-width: 2px;
+  background-color: rgb(221, 178, 128);
+  padding: 30px;
+  overflow: visible;
+  position:relative;
+}
+
+#caixaoverflowed
+{
+  border: inherit;
+  overflow: visible;
+  border-radius: 5px;
+  border-color: black;
+  top: -1em;
+  right: -1em;
+  background-color: coral;
+  padding: 1em;
+  width: 5em;
+  text-align: center;
+  font-weight: bold;
+  position: absolute;
 }
