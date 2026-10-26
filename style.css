@@ -10,7 +10,25 @@ body {
   text-align: justify;
 }
 
-#prova1 {
+#header
+{
+  font-size: 40px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#container
+{
+  font-size: medium;
+  font-family: fantasy;
+}
+
+#footer
+{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#prova1 
+{
   background-image:
     linear-gradient(rgba(0, 0, 255, .9),
                    rgba(255, 255, 0, 0.9));
