@@ -3,7 +3,7 @@
    "how to change link color." */
 
 body {
-  background-color: rgb(8, 68, 55);
+  background-color: rgb(56, 138, 120);
   color: white;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   padding: 10% 20%;
@@ -139,58 +139,4 @@ ul.kirby
   text-align: center;
   font-weight: bold;
   position: absolute;
-}
-
-/*-----------------------------------------------*/
-
-body.layout{
-  margin:0;
-  padding:5em;
-  background: grey;
-}
-
-#container{
-  position:relative;
-}
-
-#layout {
-  width:779px;
-  margin:auto;
-}
-
-#menu1 {
-  position:absolute;
-  top:0;
-  left:0;
-  width:18%;
-  background: rgb(194, 149, 191);
-
-  padding: 1%;
-}
-
-#menu2 {
-  position:absolute;
-  top:0;
-  right:0;
-  width:18%;
-  background: rgb(133, 196, 133);
-
-  padding: 1%;
-}
-
-#content {
-  padding-bottom:3em;
-  margin-left:20%;
-  margin-right:20%;
-  background: rgb(180, 180, 127);
-  padding: 1%;
-}
-
-#footer {
-  padding-top:1em;
-  margin-left:20%;
-  margin-right:20%;
-  background: rgb(180, 159, 118);
-
-  padding: 1%;
 }
