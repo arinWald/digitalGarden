@@ -85,22 +85,18 @@ img.margin{
   text-align:justify;
 }
 
-li a{
-  color: green;
-}
-
-li.red{
+/* li.red{
   color: red;
   text-align: center;
   font-variant:small-caps;
   width: 3px;
-}
+} */
 
-li:hover{
+/* li:hover{
   color:black;
   text-decoration:underline;
   word-spacing: 50px;
-}
+} */
 
 .black_bold{
   color: black;
