@@ -10,31 +10,27 @@ body {
   text-align: justify;
 }
 
-#header
-{
+#header {
   font-size: 40px;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-#container
-{
+#container {
   font-size: medium;
   font-family: fantasy;
 }
 
-#footer
-{
+#footer {
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-#prova1 
-{
+#prova1 {
   background-image:
     linear-gradient(rgba(0, 0, 255, .9),
-                   rgba(255, 255, 0, 0.9));
+      rgba(255, 255, 0, 0.9));
   color: red;
   font-style: italic;
-  border:  aqua 7px groove;
+  border: aqua 7px groove;
   width: 500px;
   height: 100px;
   margin: auto;
@@ -42,18 +38,17 @@ body {
 
 }
 
-img.margin{
+img.margin {
   margin: 5%;
 }
 
-.sidebar
-{
+.sidebar {
   float: right;
   margin-left: 15px;
 }
 
 #prova2 {
-  background-image: 
+  background-image:
     repeating-radial-gradient(rgba(2, 10, 203, 100), rgba(2, 210, 3, 100));
   color: turquoise;
   font-style: oblique;
@@ -64,15 +59,15 @@ img.margin{
 }
 
 #blocxuli {
-  background-image: 
+  background-image:
     linear-gradient(rgb(0 0 255 / 0.5), rgb(255 255 0 / 0.5)),
     url('assets/comp016.gif');
-    background-position: center right;
-    background-repeat: no-repeat;
+  background-position: center right;
+  background-repeat: no-repeat;
   color: turquoise;
-  border-style:double;
+  border-style: double;
   border-radius: 20px;
-  border-width:10px;
+  border-width: 10px;
   border-color: red;
   border-bottom-color: white;
   border-top-color: white;
@@ -82,7 +77,7 @@ img.margin{
   padding: 15px;
   /* overflow auto fa que si es mes gran el text que el quadrat sigui scrollable */
   overflow: auto;
-  text-align:justify;
+  text-align: justify;
 }
 
 /* li.red{
@@ -98,31 +93,28 @@ img.margin{
   word-spacing: 50px;
 } */
 
-.black_bold{
+.black_bold {
   color: black;
   font-weight: 1000;
   text-transform: capitalize;
   letter-spacing: 10px;
 }
 
-ul.kirby
-{
-  list-style-image:url('assets/kirby_dot.png');
+ul.kirby {
+  list-style-image: url('assets/kirby_dot.png');
 }
 
-#caixanormal
-{
-  border-style:solid;
+#caixanormal {
+  border-style: solid;
   border-color: rgb(0, 0, 0);
   border-width: 2px;
   background-color: rgb(221, 178, 128);
   padding: 30px;
   overflow: visible;
-  position:relative;
+  position: relative;
 }
 
-#caixaoverflowed
-{
+#caixaoverflowed {
   border: inherit;
   overflow: visible;
   border-radius: 5px;
@@ -137,20 +129,18 @@ ul.kirby
   position: absolute;
 }
 
-#navMenu ul
-{
-  list-style-type:none;
+#navMenu ul {
+  list-style-type: none;
   text-align: center;
-  margin:10;
-  padding:0;
+  margin: 10;
+  padding: 0;
   width: 100%;
 }
 
-#navMenu li
-{
-  font-weight:bold;
-  font-variant:small-caps;
-  padding:0.1em 0.5em;
+#navMenu li {
+  font-weight: bold;
+  font-variant: small-caps;
+  padding: 0.1em 0.5em;
   display: inline;
   background-color: rgb(233, 191, 114);
   border-style: solid;
@@ -158,13 +148,12 @@ ul.kirby
   border-color: rgb(170, 134, 67);
 }
 
-#caixaLlista
-{
-  font-family:monospace;
+#caixaLlista {
+  font-family: monospace;
   background: linear-gradient(90deg, rgb(255, 174, 0), rgba(255, 255, 255, 0));
   width: 50%;
   border-radius: 10px;
   padding: 3%;
   margin: 1%;
-  border-style:ridge;
+  border-style: ridge;
 }
